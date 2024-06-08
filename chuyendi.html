@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm hiểu về Chuyến đi</title>
+    <link rel="stylesheet" href="Trip.css">
+    
+
+   
+</head>
+<body>
+    <div class="header" id="header">
+        <div style="width: 65%; margin-left: auto; margin-right: auto;">
+                <div class="menutop">
+                    <div class="name"><a class="page1" href="/Trangchu.html"><img src="/img/logo.png" style="width: 60px; height: 60px; margin-right: 10px;"><b>LoveTravel</b></a></div>
+                        <div class="btn-top" style="display: flex;">
+                            
+                                
+                            <div>
+                                <div class="searchBox">
+
+                                    <input class="searchInput" type="text" name="" placeholder="Search something">
+                                    <button class="searchButton" href="#">
+                                           
+                                          
+                        
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                          <g clip-path="url(#clip0_2_17)">
+                            <g filter="url(#filter0_d_2_17)">
+                              <path d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                            </g>
+                          </g>
+                          <defs>
+                            <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139" height="29.7139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                              <feOffset dy="4"></feOffset>
+                              <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                              <feComposite in2="hardAlpha" operator="out"></feComposite>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_17"></feBlend>
+                              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17" result="shape"></feBlend>
+                            </filter>
+                            <clipPath id="clip0_2_17">
+                              <rect width="28.0702" height="28.0702" fill="white" transform="translate(0.403503 0.526367)"></rect>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                                             
+                        
+                                    </button>
+                                </div>
+                        
+                        
+                                
+                            </div>
+    
+                            <div class="menu-sidebar" style="display: flex;">
+                                <a href="/Khampha.html" class="khampha" id="but-top"><b>Khám phá</b></a>
+                                <a href="/chuyendi.html" class="chuyendi" id="but-top"><b>Chuyến đi</b></a>
+                                <a href="/vietdanhgia.html" class="danhgia" id="but-top"><b>Đánh giá</b></a>
+                                <a href="/Trangchu.html" class="chuyenbay" id="but-top"><b>Chuyến bay</b></a>
+                            </div>
+    
+                        </div>
+                    <div class="dn-dk">
+            
+                        <a href="/Dangnhap.html" class="dn" id="sign" style="margin: auto;"><b>Đăng nhập</b></a>
+                    </div>
+                </div>  
+        </div>
+    </div>
+    <div id="menu"> <!--Start the unordered list after the opening menu division -->
+        <ul>
+          <li><a href="#">Khách sạn</a></li>
+          <li><a href="#">Hoạt động giải trí </a></li>
+          <li><a href="#">Nhà hàng</a></li>
+          <li><a href="#">Chuyến bay</a></li>
+          <li><a href="#">Câu chuyện du lịch</a></li>
+          <li><a href="#">Chuyến đi chơi</a></li>
+          <li><a href="#">      <svg width="20" height="20" viewBox=" 0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="eve"0 0 24 nodd" d="M9.654 10.255h4.178c-.07-1.591-.356-2.993-.766-4.017-.238-.594-.502-1.023-.756-1.293-.211-.223-.38-.3-.5-.32a6.56 6.56 0 00-.133 0c-.12.02-.29.097-.5.32-.255.27-.519.7-.756 1.293-.41 1.024-.697 2.426-.767 4.017zm-.374-5.14c-.09.18-.174.37-.252.565-.491 1.227-.805 2.825-.875 4.575H5.399a6.388 6.388 0 013.88-5.14zm2.301-1.99a7.883 7.883 0 00-7.726 7.88 7.88 7.88 0 007.883 7.886c.585 0 .872-.015 1.111-.074.123-.031.172-.05.213-.064.058-.02.099-.036.312-.073l-.26-1.478a3.842 3.842 0 00-.462.107c-.087.026-.113.035-.127.04a.286.286 0 01-.04.012c-.03.008-.132.03-.742.03-.122 0-.313-.06-.566-.327-.255-.27-.519-.7-.756-1.293-.41-1.024-.697-2.425-.767-4.016h4.203a4.673 4.673 0 01-.225 1.255l-.012.041-.005.016c-.033.113-.088.297-.099.478l1.498.088v.006s.007-.036.044-.162l.012-.04c.037-.125.089-.297.136-.504.072-.313.134-.698.152-1.178h2.734a4.156 4.156 0 01-.195.949c-.055.159-.11.28-.166.402l-.004.01a1.844 1.844 0 00-.171.507l1.484.219-.005.026s.012-.032.057-.13l.008-.018c.056-.123.137-.3.215-.53.168-.488.311-1.167.311-2.185a7.878 7.878 0 00-7.72-7.88 1.938 1.938 0 00-.325 0zm2.626 1.99c.09.181.173.37.252.565.49 1.227.804 2.825.875 4.575h2.749a6.384 6.384 0 00-3.876-5.14zM9.284 16.902a7.763 7.763 0 01-.256-.573c-.49-1.227-.805-2.824-.875-4.574H5.399a6.386 6.386 0 003.885 5.147z"></path>
+        </svg>
+             VND</a></li>
+          
+        </ul>
+    </div>
+   
+      </div>
+</div>
+      
+ 
+   
+    <div class="container2">
+        <div class="section text-section">
+            <h2>Lưu địa điểm yêu thích</h2>
+            <p>Duyệt tìm các khách sạn, nhà hàng và trải nghiệm hàng đầu và nhận đề xuất phù hợp với cá nhân để thêm vào chuyến đi của bạn.</p>
+        </div>
+        <div class="section image-section">
+            <img src="/img/buckingham.jpg" alt="Image description">
+        </div>
+        <div class="section image-section">
+            <img src="/img/map-london.jpg" alt="Image description">
+        </div>
+        <div class="section text-section">
+            <h2>Theo dõi khi đang đi chuyển</h2>
+            <p>Kiểm tra hành trình và xem địa điểm đã lưu trên bản đồ tùy chỉnh trong ứng dụng.</p>
+        </div>
+    </div>
+    <div class="container2">
+      <div class="section text-section">
+          <h2>Chia sẻ chuyến đi của bạn</h2>
+          <p>Cộng tác với bạn đồng hành hoặc công khai chuyến đi để chia sẻ với khách du lịch khác.</p>
+      </div>
+      <div class="section image-section">
+          <img src="/img/london-vocation.png" alt="London family vacation">
+      </div>
+  </div>
+  <div class="container1">
+      <p >Bạn đã bắt đầu? <a href="/Dangnhap.html">Đăng nhập</a> để xem các chuyến đi đã lưu.</p>
+      </div>
+      <div class="Footer" id="Footer">
+        <div class="footer" id="footer">
+            <div style="display: flex;">
+<div style="width: 380px;margin-left: 200px;">
+                    <div class="logo-footer"><img src="/img/logo.png" style="padding-right :30px;width: 130px; height: 120px;"><b style="font-size: 40px; margin-left: -30px;">LoveTravel</b></div> <br/>
+                    <div><b style="margin-left: 160px;">Chỉ đường</b></div>
+                    <div class="map" style="text-decoration:none; overflow:hidden;max-width:100%;width:350px;height:200px;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=470+Đường+Trần+Đại+Nghĩa,+Ngũ+Hành+Sơn,+Da+Nang,+Vietnam&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a><style>#my-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+      
+                </div>
+      
+                <div class="content">
+                    <table>
+                        <tr>
+                            <th><b>Giới thiệu về chúng tôi</b></th>
+                            <th><b>Hợp tác</b></th>
+                            <th><b>Khám phá</b></th>
+                        </tr>
+                        <tr>
+                            <td><a href="">Về chúng tôi</a></td>
+                            <td><a href="">Chủ sở hữu</a></td>
+                            <td><a href="">Thủ lĩnh xanh</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Tài nguyên và chính sách</a></td>
+                            <td><a href="">Chiến lược doanh nghiệp</a></td>
+                            <td><a href="">Trung tâm trợ giúp</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Tin cậy & an toàn</a></td>
+                            <td><a href="">Tài trợ</a></td>
+                            <td><a href="">Tham gia</a></td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 35px;"> <a href=""><i class="fa-brands fa-instagram"></i></a> <a href=""><i class="fa-brands fa-twitter"></i></a> <a href=""><i class="fa-solid fa-envelope"></i></a> <a href=""><i class="fa-brands fa-facebook"></i></a> </td>
+                            <td><a href="">Quảng cáo với chúng tôi</a></td>
+      <td><a href="">Thêm địa điểm</a></td>
+                        </tr>
+                    </table>
+                </div>
+      
+                <div class="sub">
+                    <div class="sub-info">
+                        <h2>Đăng Ký Nhận Thông Báo</h2>
+                        <form id="signup-form">
+                            <label for="name">Họ và tên:</label>
+<input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <button type="submit">Đăng Ký</button>
+                        </form>
+                    </div>
+                </div>
+      
+            </div>
+            
+        </div>
+      
+        <div class="under" style="background-color: rgb(245, 245, 220); padding-top: 20px; padding-bottom: 20px; display: flex; align-items: center; justify-content: center;">
+            <div><b style="font-size: 20px;">"Hành trình ngàn dặm bắt đầu bằng một bước chân, hãy để chúng tôi giúp bạn thực hiện bước chân đó."</b></div>
+            
+      
+          </div>
+        
+      </div>
+        
+
+   
+</body>
+</html>
+
+<style>
+
+
+#but-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  background: none;
+  border: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: black;
+  z-index: 2;
+}
+.btn-top {
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+.moved {
+  position: relative;
+  left: -150px; /* Điều chỉnh khoảng cách nút khi thanh tìm kiếm ẩn */
+  transition: all 0.3s ease;
+}
+#sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ float: right;
+  font-size: 15px;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 30px;
+  width: 100px;
+  height: 40px;
+  text-decoration: none;
+
+  
+}
+#sign:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+#but-top:hover{
+  background-color: rgb(229, 236, 236);
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased; /*hiệu ứng chống răng cưa cho font chữ trên các trình duyệt sử dụng WebKit (ví dụ: Safari và Chrome) để làm cho văn bản trông mịn màng hơn trên màn hình*/
+  font-family: Arial,Tahoma,Bitstream Vera Sans,sans-serif;
+  overflow-x: hidden; /*điều này sẽ ngăn chặn trình duyệt hiển thị thanh trượt ngang khi nội dung vượt quá kích thước của cửa sổ trình duyệt*/
+}
+.header{
+  height: 60px;
+  transition: boder-bottom-color 0.3s ease;
+  position: sticky;
+  top: 0; /* Điều này sẽ làm cho phần tử được ghim ở đỉnh của cửa sổ trình duyệt */
+  z-index: 1001; /* Đảm bảo phần tử sticky hiển thị trên các phần tử khác */
+  background-color: #fff;
+}
+.scrolled-bg{
+  border-bottom: 1px solid gray; /*hiện viền khi cuộn*/
+}
+.main{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+.logo{
+  display: flex;
+  align-items: center;
+  
+}
+.menutop{
+  display: flex;
+  gap: var(--spacing-04); /*Thuộc tính này xác định khoảng cách giữa các phần tử con bên trong container flex*/
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page1{
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+.searchBox {
+  display: flex;
+  max-width: 170px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  background: #2f3640;
+  border-radius: 50px;
+  position: relative;
+  margin: 0px 5px;
+  z-index: 1;
+}
+
+.searchButton {
+  color: white;
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+  border: 0;
+  display: inline-block;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+/*hover effect*/
+button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+  transform: translateY(-3px);
+}
+/*button pressing effect*/
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.searchInput {
+  border: none;
+background: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  margin: 0px auto;
+}
+#menu
+{
+  position: fixed;
+  z-index: 2000;
+  top:60px;
+  left: 0px;
+  right: 0;
+width: 100%;
+border-bottom: 1px solid rgba(183, 179, 179, 0.911);
+border-top: 1px solid rgb(183, 179, 179, 0.911);
+ height: 40px;
+ background-color: #ffffff;
+ font-family: Helvetica, sans-serif;
+ font-size: 13px;
+ border-radius: 0;
+}
+#menu ul
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#menu ul li
+{
+  list-style-type: none;
+}
+#menu ul li a 
+{
+   color: #000000;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 10px 20px;
+   font-weight: bold;
+   font-size: 14px;
+   margin-bottom:5px;
+}
+              
+#menu ul li a:hover
+{
+   color: black;
+   background-color: rgba(0, 0, 0, 0.2);
+   border-radius: 50px;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.section {
+  width: 45%;
+  margin: 20px ;
+  margin-left: 30%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.text-section {
+  text-align: left;
+}
+.text-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.text-section p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.5;
+}
+.image-section img {
+  width: 100%;
+  height: 900px;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .section {
+      width: 90%;
+  }
+}
+.container1{
+
+text-align: center;
+padding: 50px 0;
+
+}
+.Footer{
+  background-color: rgba(245, 245, 220, 0.308);
+}
+.footer{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  background-image: url(./Ảnh/footer.png);
+}
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+.content table{
+  width: 600px;
+  margin-top: 115px;
+  margin-left: 100px;
+}
+.content td{
+  height: 30px;
+}
+.content th, td{
+  text-align: left;
+}
+.map{
+  margin-top: 30px;
+  margin-left: 30px;
+  box-shadow: 0 0 0 1px black;
+}
+.logo-footer{
+ display: flex;
+ align-items: center;
+ margin-top: 10px;
+ margin-left: 550px;
+ width: 380px;
+ height: 90px;
+}
+.sub{
+  font-family: Arial, sans-serif;
+  margin-top: 115px;
+  margin-left: 100px;
+}
+.sub-info{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sub h2 {
+  margin-bottom: 20px;
+}
+
+.sub label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sub input[type="text"],
+.sub input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sub button {
+  background-color: #84FBFF;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sub button:hover {
+  background-color: aqua;
+}
+
+
+</style>
